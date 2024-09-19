@@ -1,23 +1,31 @@
 void main() {
+  // Declare and initialize integer variables
   int a = 10;
   int b = 12;
 
-  print(a);
-  print(b);
+  // Print the initial values of 'a' and 'b'
+  print(a); // Outputs 10
+  print(b); // Outputs 12
 
-  //prefix increment
-  print("after prefix increment");
-  print(++a);
+  // Prefix increment
+  // Increments 'a' by 1 before printing
+  print("After prefix increment");
+  print(++a); // Outputs 11
 
-  //prefix decrement
-  print("after prefix decrement");
-  print(--a);
+  // Prefix decrement
+  // Decrements 'a' by 1 before printing
+  print("After prefix decrement");
+  print(--a); // Outputs 10
 
-  //postfix increment
-  print("after postfix increment");
-  print(b++);
+  // Postfix increment
+  // Prints 'b' first, then increments 'b' by 1
+  print("After postfix increment");
+  print(b++); // Outputs 12
+  print(b);   // Outputs 13 (to show the new value of 'b')
 
-  //postfix decrement
-  print("after postfix decrement");
-  print(b--);
+  // Postfix decrement
+  // Prints 'b' first, then decrements 'b' by 1
+  print("After postfix decrement");
+  print(b--); // Outputs 13
+  print(b);   // Outputs 12 (to show the new value of 'b')
 }

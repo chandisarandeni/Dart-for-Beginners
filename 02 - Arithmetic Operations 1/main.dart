@@ -1,22 +1,22 @@
 void main() {
-  // This is about how arithmetic operators in dart
+  // This program demonstrates how to use arithmetic operators in Dart
 
-  // Addition of a String
-  // We can add string in dart but we cannot substract strings
-  print("100" + "100");
+  // Addition of two strings
+  // In Dart, you can concatenate (add) strings, but you cannot subtract them
+  print("100" + "100"); // Outputs "100100"
 
-  //Addition
-  print(10 + 12);
+  // Addition of two numbers
+  print(10 + 12); // Outputs 22
 
-  //Substraction
-  print(10 - 2);
+  // Subtraction of two numbers
+  print(10 - 2); // Outputs 8
 
-  //Multiplication
-  print(10 * 2);
+  // Multiplication of two numbers
+  print(10 * 2); // Outputs 20
 
-  //Division
-  print(10 / 3);
+  // Division of two numbers
+  print(10 / 3); // Outputs approximately 3.3333
 
-  //Mod
-  print(10 % 3);
+  // Modulus operation (remainder of division)
+  print(10 % 3); // Outputs 1
 }

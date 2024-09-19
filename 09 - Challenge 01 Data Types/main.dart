@@ -1,29 +1,33 @@
-void main(){
+void main() {
+  // Declare integer variables
   int x = 5;
   int y = 10;
+
+  // Declare string variables
   String firstName = "Alice";
   String lastName = "Jhonson";
 
-//Do these things using compound operators
-  //Increment
-  print("Increment x by 2 : ${x += 2}");
+  // Using compound operators with 'x'
+  // Increment
+  print("Increment x by 2: ${x += 2}"); // x = x + 2 (Outputs 7)
 
-  //Decrement
-  print("Decrement x by 2 : ${x -= 2}");
+  // Decrement
+  print("Decrement x by 2: ${x -= 2}"); // x = x - 2 (Outputs 5)
 
-  //Multiplt
-  print("Multiply x  by 2 : ${x *= 2}");
+  // Multiply
+  print("Multiply x by 2: ${x *= 2}"); // x = x * 2 (Outputs 10)
 
-  //Divide
-  print("Divide   x  by 2 : ${x ~/= 2}");
+  // Integer division
+  print("Divide x by 2: ${x ~/= 2}"); // x = x ~/ 2 (Outputs 5)
 
-  print("");
+  print(""); // Empty line for better readability in output
 
-  //Decrement y by 1 using a prefix/postfix decrement operator
-  print("Decrement y by 1 : ${--y}");
+  // Decrement 'y' by 1 using a prefix decrement operator
+  print("Decrement y by 1: ${--y}"); // Outputs 9 (y = y - 1)
 
-  print("");
-  //Concatanate the first and last names and stire the result in a variable 'fullName'
+  print(""); // Empty line for better readability in output
+
+  // Concatenate first and last names and store the result in 'fullName'
   String fullName = firstName + " " + lastName;
-  print("FUll name is $fullName");
+  print("Full name is: $fullName"); // Outputs "Alice Jhonson"
 }

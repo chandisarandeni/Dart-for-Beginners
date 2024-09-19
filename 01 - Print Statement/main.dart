@@ -1,14 +1,14 @@
-// This is about print something in dart
-void main(){
-  //print one word
+// This program demonstrates how to print different types of values in Dart
+void main() {
+  // Print a single word
   print("flutter");
 
-  //print multiple words
+  // Print a sentence with multiple words
   print("I love flutter");
 
-  //print number as a string
+  // Print a number as a string (text)
   print("80");
-  
-  //print number as a number
+
+  // Print a number as an integer (numerical value)
   print(80);
 }
