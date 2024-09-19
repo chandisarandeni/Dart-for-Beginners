@@ -1,5 +1,5 @@
 void main() {
-  // This program demonstrates how to use arithmetic operators in Dart
+  // This program demonstrates how to use arithmetic operators in Dart 
 
   // Addition of two strings
   // In Dart, you can concatenate (add) strings, but you cannot subtract them

@@ -1,7 +1,7 @@
 void main() {
   int a = 10;
 
-  // Print the initial value of 'a'
+  // Print the initial value of 'a' 
   print(a); // Outputs 10
 
   // Decrement operator (subtract 1 from 'a')

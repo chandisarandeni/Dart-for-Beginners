@@ -1,5 +1,5 @@
 void main() {
-  // Declare and initialize integer variables
+  // Declare and initialize integer variables 
   int a = 10;
   int b = 12;
 

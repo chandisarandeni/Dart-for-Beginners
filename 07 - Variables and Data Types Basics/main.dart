@@ -1,5 +1,5 @@
 void main() {
-  // Declare and initialize a string variable 'firstName'
+  // Declare and initialize a string variable 'firstName' 
   String firstName = "David";
   // Print the value of 'firstName'
   print(firstName); // Outputs "David"
