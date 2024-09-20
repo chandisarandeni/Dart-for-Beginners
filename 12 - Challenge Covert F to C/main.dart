@@ -1,14 +1,16 @@
-void main(){
+void main() {
   /*
-  Convert Fahrenheiit value to Celcius value
+  Convert Fahrenheit value to Celsius value
+  Formula: C = (F - 32) * 5 / 9
   */
 
-  //Declare variables
-  double F = 120;
-  double C = 0;
+  // Declare variables
+  double F = 120; // Fahrenheit value
+  double C = 0;   // Celsius value (to be calculated)
 
-  //Equestion to convert F into C
+  // Equation to convert Fahrenheit to Celsius
   C = (F - 32) * 5 / 9;
 
-  print("Celcius value of $F of Fahrenheiit is : ${C.toStringAsFixed(3)} Celcius");
+  // Print the Celsius value, rounded to 3 decimal places
+  print("Celsius value of $F Fahrenheit is: ${C.toStringAsFixed(3)} Celsius");
 }

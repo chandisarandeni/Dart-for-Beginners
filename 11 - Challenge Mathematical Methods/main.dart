@@ -1,20 +1,20 @@
-void main(){
+void main() {
   /*
-  Calculate the area of a circle with the radious 10 units and display the results
-  Area = pi * r * r
-  pi = 3.142, r = 10
+  Calculate the area of a circle with a radius of 10 units and display the result.
+  Formula: Area = pi * r * r
+  Given: pi = 3.142, r = 10
   */
 
-  //Initialize variables
-  double r = 10;
-  double pi = 3.142;
+  // Initialize variables
+  double r = 10;    // radius
+  double pi = 3.142; // value of pi
 
-  //Calculation
+  // Calculation
   double area = pi * r * r;
 
-  //print original value
-  print("Area : $area");
+  // Print the calculated area
+  print("Area: $area"); // Outputs the area of the circle
 
-  // Print the area of the circle with round of 3 decimal places
-  print("Area is round off to 2 decimal places : ${area.toStringAsFixed(3)}");
+  // Print the area rounded to 3 decimal places
+  print("Area rounded to 3 decimal places: ${area.toStringAsFixed(3)}");
 }

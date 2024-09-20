@@ -1,18 +1,19 @@
 void main() {
-//Meter to Centimeter Converter
-  double mesurementInMeters = 10;
-  double mesurementInCentimeters = 0;
+  // Meter to Centimeter Converter
+  double measurementInMeters = 10;
+  double measurementInCentimeters = 0;
 
-//Const
+  // Constant for meter-to-centimeter conversion
   const meterToCentimeter = 100;
 
-//Equation
-  mesurementInCentimeters = mesurementInMeters * meterToCentimeter;
+  // Equation to convert meters to centimeters
+  measurementInCentimeters = measurementInMeters * meterToCentimeter;
 
+  // Print the conversion result, rounding to 0 decimal places
   print(
-      "${mesurementInMeters.toStringAsFixed(0)} meters is equal to ${mesurementInCentimeters.toStringAsFixed(0)} centimeters");
+      "${measurementInMeters.toStringAsFixed(0)} meters is equal to ${measurementInCentimeters.toStringAsFixed(0)} centimeters");
 
-//show that the const must be initialized in compile time using the DateTime class
+  // Demonstrating that 'const' must be initialized at compile time using the DateTime class
   final dateTimeNow = DateTime.now();
-  print(dateTimeNow);
+  print(dateTimeNow); // Outputs the current date and time
 }

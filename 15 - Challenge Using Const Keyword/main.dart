@@ -1,14 +1,16 @@
-void main(){
-  //Create a programthat converts the user entered miles into km
+void main() {
+  // Create a program that converts user-entered miles into kilometers
 
-  //Declare variables
-  double miles = 33;
-  double kiloMeters = 0;
+  // Declare variables
+  double miles = 33; // Example value for miles
+  double kiloMeters = 0; // Variable to store the result in kilometers
 
+  // Constant conversion factor from miles to kilometers
   const convertToKiloMeter = 1.60934;
 
-  //Calculation
+  // Calculation: Convert miles to kilometers
   kiloMeters = miles * convertToKiloMeter;
 
-  print("$miles miles are equals to ${kiloMeters.toStringAsFixed(2)} km");
+  // Print the conversion result, rounded to 2 decimal places
+  print("$miles miles are equal to ${kiloMeters.toStringAsFixed(2)} km");
 }
