@@ -10,11 +10,15 @@ void main(){
   /// These operators are essential for controlling the flow of a program based on multiple conditions.
   
   
+  // Define a variable `number` and assign it a value of 12.
   int number = 12;
   
+  // Check if `number` is between 10 and 20 inclusive using logical AND (&&) operator.
   if (number >= 10 && number <= 20) {
+    // If the condition is true, print that the number is in the range.
     print("Number is in the range");
-  }else{
+  } else {
+    // If the condition is false, print that the number is not in the range.
     print("Number is not in the range");
   }
 }
