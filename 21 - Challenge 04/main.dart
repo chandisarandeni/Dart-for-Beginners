@@ -1,25 +1,24 @@
 void main() {
-  //Write a Dart program to check the weather condition is sunny or rainy and
-  //then execute the code
-  //Change the code that is also check weather that day is a weekend
-
+  // Define the weather condition and whether it is a weekend
   String weather = "Rainy";
   bool isWeekend = true;
 
-// if the weekend is true
+  // Check if it is a weekend
   if (isWeekend == true) {
+    // It is a weekend
+    // Check if the weather is sunny
     if (weather == "Sunny") {
-      //Statement for sunny
+      // Print statement for sunny weather on a weekend
       print("Today is a sunny day!");
     }
+    // Check if the weather is rainy
     if (weather == "Rainy") {
-      //Statement for rainy
+      // Print statement for rainy weather on a weekend
       print("Today is a rainy day!");
     }
-  }
-  
-  //if the weekend is false
-  if(isWeekend == false){
+  } else {
+    // It is not a weekend
+    // Print statement for a non-weekend day
     print("Today is not a weekend!");
   }
 }
