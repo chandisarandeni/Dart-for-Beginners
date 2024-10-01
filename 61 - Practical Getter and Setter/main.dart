@@ -1,83 +1,89 @@
-class Person{
-  //field
+class Person {
+  // Private fields
   String? _firstName;
   String? _lastName;
   int? _age;
 
-  //constructor
-  Person({required String firstName, required String lastName , required int age}){
+  // Constructor
+  Person({required String firstName, required String lastName, required int age}) {
     this._firstName = firstName;
     this._lastName = lastName;
     this._age = age;
   }
 
-  //getter
-  String get getFirstName{
-    if(_firstName != null){
+  // Getter for first name
+  String get getFirstName {
+    if (_firstName != null) {
       return _firstName!;
-    }else{
+    } else {
       return "Invalid";
     }
   }
 
-  String get getLastName{
-    if(_lastName != null){
+  // Getter for last name
+  String get getLastName {
+    if (_lastName != null) {
       return _lastName!;
-    }else{
+    } else {
       return "Invalid";
     }
   }
 
-  dynamic get getAge{
-    if(_age != null){
+  // Getter for age
+  dynamic get getAge {
+    if (_age != null) {
       return _age!;
-    }else{
+    } else {
       return "Invalid";
     }
   }
 
-  //setter
-  set setFirstName(String _firstName){
-    if(_firstName.isNotEmpty){
-      _firstName = _firstName;
-    }else{
+  // Setter for first name
+  set setFirstName(String firstName) {
+    if (firstName.isNotEmpty) {
+      _firstName = firstName;
+    } else {
       _firstName = "Invalid";
     }
   }
 
-  set setLastName(String _lastName){
-    if(_lastName.isNotEmpty){
-      _lastName = _lastName;
-    }else{
+  // Setter for last name
+  set setLastName(String lastName) {
+    if (lastName.isNotEmpty) {
+      _lastName = lastName;
+    } else {
       _lastName = "Invalid";
     }
   }
 
-  set setAge(int _age){
-    if(_age > 0){
-      _age = _age;
-    }else{
+  // Setter for age
+  set setAge(int age) {
+    if (age > 0) {
+      _age = age;
+    } else {
       _age = 0;
     }
   }
 }
-void main(){
+
+void main() {
+  // Create a new Person object
   Person person = Person(
     firstName: "John",
     lastName: "Doe",
     age: 30
   );
 
-  //setters
+  // Use setters to update the person's details
   person.setFirstName = "Jane";
   person.setLastName = "Doe";
   person.setAge = 25;
 
-  //getters
+  // Use getters to retrieve and print the person's details
   print(person.getFirstName);
   print(person.getLastName);
   print(person.getAge);
 
-  //print all
+  // Print all details in a single line
   print(person.getFirstName + " " + person.getLastName + " " + person.getAge.toString());
 }
